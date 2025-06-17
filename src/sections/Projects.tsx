@@ -3,10 +3,8 @@ import { Card } from "../components/Card";
 
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
-import grainImage from "@/assets/images/grain.jpg";
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import Project1 from "../assets/images/Pollution.png";
+import Project2 from "../assets/images/Youtube.png";
 
 const portfolioProjects = [
   {
@@ -18,35 +16,27 @@ const portfolioProjects = [
       { title: "Increased mobile traffic by 35%" },
     ],
     link: "",
-    image: darkSaasLandingPage,
+    image: Project1,
   },
-  // {
-  //   year: "2025",
-  //   title: "BrainWave",
-  //   results: [
-  //     { title: "Boosted sales by 20%" },
-  //     { title: "Expanded customer reach by 35%" },
-  //     { title: "Increased brand awareness by 15%" },
-  //   ],
-  //   link: "https://youtu.be/7hi5zwO75yc",
-  //   image: lightSaasLandingPage,
-  // },
-  // {
-  //   year: "2025",
-  //   title: "SnapGram",
-  //   results: [
-  //     { title: "Enhanced user experience by 40%" },
-  //     { title: "Improved site speed by 50%" },
-  //     { title: "Increased mobile traffic by 35%" },
-  //   ],
-  //   link: "https://youtu.be/Z7I5uSRHMHg",
-  //   image: aiStartupLandingPage,
-  // },
+  {
+    year: "2025",
+    title: "Youtube Clone",
+    results: [
+      { title: "Clone di Youtube con funzionalità avanzate" },
+      { title: "Interfaccia utente reattiva e intuitiva" },
+      { title: "Integrazione con RapidAPI di YouTube" },
+    ],
+    link: "",
+    image: Project2,
+  },
 ];
 
 export const ProjectsSection = () => {
   return (
-    <section className='pb-16 lg:py-24'>
+    <section
+      className='pb-16 lg:py-24'
+      id='progetti'
+    >
       <div className='container'>
         <div className='flex justify-center'>
           <p className='uppercase font-semibold tracking-widest bg-gradient-to-r from-emerald-300 to-sky-400 text-center bg-clip-text text-transparent'>
