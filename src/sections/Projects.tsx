@@ -12,8 +12,8 @@ const portfolioProjects = [
     title: "Pollution Monitoring",
     results: [
       { title: "Monitora il livello di inquinamento" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Utilizzo API di GlobalWarming" },
+      { title: "UTilizzo di NextJs e Desploy su Vercel" },
     ],
     link: "https://stefanowork-pollution.vercel.app/",
     image: Project1,
