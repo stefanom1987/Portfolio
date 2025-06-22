@@ -15,7 +15,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "",
+    link: "https://stefanowork-pollution.vercel.app/",
     image: Project1,
   },
   {
@@ -26,7 +26,7 @@ const portfolioProjects = [
       { title: "Interfaccia utente reattiva e intuitiva" },
       { title: "Integrazione con RapidAPI di YouTube" },
     ],
-    link: "",
+    link: "https://stefanowork-youtube.vercel.app/",
     image: Project2,
   },
 ];
